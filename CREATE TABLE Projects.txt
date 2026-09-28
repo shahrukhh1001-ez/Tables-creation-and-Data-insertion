@@ -1,0 +1,39 @@
+CREATE TABLE Projects (
+    Project_ID INT PRIMARY KEY,
+    Project_Name VARCHAR(50),
+    Emp_ID INT,
+    Project_Budget INT,
+    Status VARCHAR(20)
+);
+
+INSERT INTO Projects VALUES
+(201, 'Cloud Migration', 101, 150000, 'Completed'),
+(202, 'Recruitment Portal', 102, 80000, 'Completed'),
+(203, 'Data Analytics', 103, 200000, 'Ongoing'),
+(204, 'Financial Dashboard', 104, 120000, 'Ongoing'),
+(205, 'HR Automation', 105, 90000, 'Ongoing'),
+(206, 'AI Platform', 106, 300000, 'Ongoing'),
+(207, 'Sales Dashboard', 108, 70000, 'Completed'),
+(208, 'Customer Analytics', 109, 180000, 'Ongoing'),
+
+
+
+
+CREATE TABLE Projects (
+    Project_ID INT PRIMARY KEY,
+    Project_Name VARCHAR(50),
+    Emp_ID INT,
+    Project_Budget INT,
+    Status VARCHAR(20)
+);
+
+INSERT INTO Projects VALUES
+(201, 'Cloud Migration', 101, 150000, 'Completed'),
+(202, 'Recruitment Portal', 102, 80000, 'Completed'),
+(203, 'Data Analytics', 103, 200000, 'Ongoing'),
+(204, 'Financial Dashboard', 104, 120000, 'Ongoing'),
+(205, 'HR Automation', 105, 90000, 'Ongoing'),
+(206, 'AI Platform', 106, 300000, 'Ongoing'),
+(207, 'Sales Dashboard', 108, 70000, 'Completed'),
+(208, 'Customer Analytics', 109, 180000, 'Ongoing'),
+(209, 'Database Upgrade', 110, 160000, 'Completed');
